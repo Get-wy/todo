@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 561408 */
+    src: url('https://at.alicdn.com/t/font_561408_u5lo4l6v5whilik9.eot');
+    src: url('https://at.alicdn.com/t/font_561408_u5lo4l6v5whilik9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_561408_u5lo4l6v5whilik9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_561408_u5lo4l6v5whilik9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_561408_u5lo4l6v5whilik9.svg#iconfont') format('svg');
+}
+.swiper-container {
+    width: 100vw;
+    height: 30vh;
+}
+.swiper-slide
+{
+    background-color: #999999;
+}
+.type
+{
+    width: 100%;
+    height: 10vh;
+}
+.project,.done
+{
+    width: 50%;
+    height: 10vh;
+    float: left;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: #333;
+}
+
+.active
+{
+    background-color: #007aff;
+}
+.itemlist li .activex{
+    color:red;
+}
+.content
+{
+    width: 100vw;
+    height: 50vh;
+    background-color: white;
+    overflow: auto;
+    position: relative;
+}
+.content ul
+{
+    width: 100vw;
+    height: auto;
+}
+.content ul li
+{
+    width: 100vw;
+    height: 6vh;
+    line-height: 3vh;
+    border-bottom: 1px solid #cccccc;
+}
+.itemlist li p
+{
+    width: 60vw;
+    height: 6vh;
+    /*background-color: red;*/
+    float: left;
+    line-height: 6vh;
+    overflow: hidden;
+    white-space: nowrap;
+    /*超出不换行*/
+    text-overflow: ellipsis;
+    /*文本超出显示....*/
+}
+.itemlist li time
+{
+    width: 30vw;
+    height: 6vh;
+    /*background-color: yellow;*/
+    float: left;
+}
+.itemlist li span
+{
+    /*background-color: aqua;*/
+    width: 10vw;
+    height: 6vh;
+    float: left;
+    font-family: 'iconfont';
+    text-align: center;
+    line-height: 6vh;
+    color: yellow;
+}
+.itemlist li div{
+    width: 20vw;
+    height: 6vh;
+    background-color: red;
+    color:#fff;
+    text-align: center;
+    line-height: 6vh;
+    position: absolute;
+    right: -20vw;
+    top:0;
+    font-size:16px ;
+}
+.add
+{
+    width: 100vw;
+    height: 10vh;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.mask
+{
+    width: 100vw;
+    height: 100vh;
+    background:rgba(0,0,0,0.67);
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 999;
+    display: none;
+}
+#text
+{
+    width: 100vw;
+    height: 40vh;
+    border: none;
+    resize: none;
+    /*用户无法调整元素的尺寸。*/
+    padding: 10vw;
+    font-size: 16px;
+    display: block;
+}
+.submit
+{
+    width: 100vw;
+    height: 10vh;
+    background-color:deepskyblue;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.cancel
+{
+    width: 9vw;
+    height: 6vh;
+    margin: 3vh auto;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 6vh;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.inputarea
+{
+    width: 100vw;
+    height: 62vh;
+    transform: translateY(-62vh);
+}
+.submit,.update{
+    width: 100vw;
+    height: 10vh;
+    background-color: red;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 26px;
+    color:#fff;
+    font-weight: 700;
+    border-style: none;
+}
+.update{
+    display: none;
+}
